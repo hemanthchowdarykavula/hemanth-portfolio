@@ -68,7 +68,7 @@ export const EDUCATION = [
 ];
 
 export const CERTIFICATIONS = [
-  { title: "SQL (Advanced) Skill Certification — HackerRank", date: "May 2025", skills: ["Advanced SQL"], link: null },
+  { title: "SQL (Advanced) Skill Certification — HackerRank", date: "May 2025", skills: ["Advanced SQL"], link: "certificates/sql_advanced%20certificate.pdf" },
   { title: "AWS Academy Cloud Foundations — AWS Academy", date: "Feb 2022", skills: ["AWS Fundamentals"], link: "certificates/aws_cloud_foundations.pdf" },
   { title: "Data Analytics Foundations — Google / Coursera", date: "Nov 2025", skills: ["Data Analytics Foundations"], link: "certificates/Coursera_Data_Analytics_Foundations.pdf" },
 ];
