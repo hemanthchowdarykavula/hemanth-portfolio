@@ -6,7 +6,7 @@ const phoneDial = PROFILE.phone.replace(/[^+\d]/g, "");
 const contacts = [
   {
     label: "LinkedIn",
-    value: "linkedin.com/in/hemanthkavula",
+    value: "linkedin.com/in/hemanthchowdarykavula",
     href: PROFILE.socials.linkedin,
     icon: Linkedin,
     newTab: true,

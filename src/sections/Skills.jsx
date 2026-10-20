@@ -49,22 +49,6 @@ const Skills = () => {
                   </span>
                 ))}
               </div>
-              <div className="mt-5">
-                <div className="h-2 w-full rounded-full bg-white/5">
-                  <div
-                    className="h-2 rounded-full bg-gradient-to-r from-primary to-accent-cyan transition-all duration-700"
-                    style={{
-                      width: isVisible || prefersReduced ? `${skill.proficiency}%` : "0%",
-                    }}
-                  />
-                </div>
-                <p className="mt-2 text-sm text-slate-400">
-                  Proficiency{" "}
-                  <span className="text-cyan-300 font-semibold">
-                    {skill.proficiency}%
-                  </span>
-                </p>
-              </div>
             </motion.div>
           );
         })}

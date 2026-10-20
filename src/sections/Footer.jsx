@@ -7,14 +7,14 @@ const Footer = () => {
       <div className="container-shell flex flex-col gap-10 py-[60px]">
         <div className="flex flex-col items-center gap-8 text-center md:flex-row md:items-start md:justify-between md:text-left">
           <div className="space-y-2">
-            <p className="text-lg font-semibold text-white">Hemanth Kavula</p>
-            <p className="text-sm text-gray-400">Senior Data Engineer</p>
-            <p className="text-sm text-gray-500">Pitman, NJ - (856) 524-6050</p>
+            <p className="text-lg font-semibold text-white">Hemanth Chowdary Kavula</p>
+            <p className="text-sm text-gray-400">Data Engineer</p>
+            <p className="text-sm text-gray-500">New Jersey - +1 (856) 524-6050</p>
           </div>
 
           <div className="flex max-w-sm flex-col items-center gap-4 md:items-end">
             <p className="text-base font-medium text-white">
-              Open to Senior Data Engineer roles.
+              Open to Data Engineer roles.
             </p>
             <a
               href={`mailto:${PROFILE.email}`}
@@ -53,7 +53,7 @@ const Footer = () => {
               <Mail size={16} />
             </a>
           </div>
-          <p>Hemanth Kavula — 2026</p>
+          <p>Hemanth Chowdary Kavula — 2026</p>
         </div>
       </div>
     </footer>

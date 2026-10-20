@@ -12,7 +12,7 @@ const Hero = () => {
   const canvasRef = useRef(null);
   const [typedText, setTypedText] = useState("");
   const phrase =
-    "Building scalable data pipelines and lakehouse platforms for enterprise analytics.";
+    "Building reliable AWS data pipelines for analytics and reporting.";
 
   const gradientClass = useMemo(
     () =>
@@ -76,7 +76,7 @@ const Hero = () => {
             )}
           </p>
           <p className="mt-4 text-sm font-semibold tracking-wide !text-slate-100 md:text-base">
-            Python | SQL | Spark | ETL | AWS | Azure | Snowflake | Airflow | DBT
+            Python | SQL | PySpark | AWS | Snowflake | dbt
           </p>
         </div>
         <div className="flex flex-wrap gap-4">
@@ -90,10 +90,10 @@ const Hero = () => {
 
         <div className="mt-2 flex flex-wrap gap-2">
           {[
-            "5+ years data engineering",
-            "Lakehouse & warehouse pipelines",
-            "Batch & streaming systems",
-            "Multi-cloud delivery",
+            "1+ years in data engineering",
+            "ETL/ELT & data validation",
+            "Batch & near-real-time ingestion",
+            "AWS data processing",
           ].map((item) => (
             <span
               key={item}

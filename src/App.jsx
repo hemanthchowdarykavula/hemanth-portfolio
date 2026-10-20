@@ -9,6 +9,7 @@ import About from "./sections/About";
 import Skills from "./sections/Skills";
 import Experience from "./sections/Experience";
 import Education from "./sections/Education";
+import Certifications from "./sections/Certifications";
 import Contact from "./sections/Contact";
 import Footer from "./sections/Footer";
 import { useParallax } from "./hooks/useParallax";
@@ -53,6 +54,7 @@ const App = () => {
         <SectionWrapper id="education">
           <Education />
         </SectionWrapper>
+        <SectionWrapper id="certifications"><Certifications /></SectionWrapper>
         <SectionWrapper id="contact">
           <Contact />
         </SectionWrapper>

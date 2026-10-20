@@ -14,11 +14,11 @@ const About = () => {
   const [values, setValues] = useState(stats.map(() => 0));
   const highlights = [
     "ETL",
-    "Lakehouse",
-    "Streaming",
+    "AWS",
+    "Snowflake",
     "Spark",
-    "Data Governance",
-    "Multi-Cloud",
+    "Data Quality",
+    "dbt",
   ];
   const aboutParagraphs = ABOUT_TEXT.split("\n\n")
     .map((paragraph) => paragraph.trim())
@@ -59,7 +59,7 @@ const About = () => {
           <div className="overflow-hidden rounded-3xl ring-2 ring-indigo-400/30 shadow-2xl shadow-black/30">
             <img
               src={headshot}
-              alt="Hemanth Kavula headshot"
+              alt="Hemanth Chowdary Kavula headshot"
               className="h-full w-full object-cover"
             />
           </div>
@@ -91,7 +91,7 @@ const About = () => {
             ))}
           </div>
           <p className="mt-6 font-medium text-slate-200">
-            Open to Senior Data Engineer opportunities across AWS and Azure.
+            Open to Data Engineer opportunities focused on AWS, ETL/ELT, and analytics.
           </p>
           {stats.length > 0 && (
             <div className="mt-8 grid gap-4 md:grid-cols-3">

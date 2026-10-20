@@ -3,15 +3,7 @@ import { CERTIFICATIONS } from "../constants";
 
 const Certifications = () => {
   const [showAll, setShowAll] = useState(false);
-  const featuredTitles = new Set([
-    "Foundations: Data, Data, Everywhere - Google (Coursera)",
-    "AI - Data Scientist Version 3.0 (NASSCOM)",
-    "Data Analytics with Python (NPTEL)",
-  ]);
-  const featuredCerts = CERTIFICATIONS.filter((cert) =>
-    featuredTitles.has(cert.title)
-  );
-  const visibleCerts = showAll ? CERTIFICATIONS : featuredCerts;
+  const visibleCerts = CERTIFICATIONS;
 
   return (
     <div className="section-shell">
@@ -44,27 +36,11 @@ const Certifications = () => {
                 </span>
               ))}
             </div>
-            <div className="mt-5">
-              <a
-                href={cert.link}
-                target="_blank"
-                rel="noreferrer"
-                className="inline-flex items-center gap-2 rounded-full border border-white/10 px-4 py-2 text-xs font-semibold text-white"
-              >
-                View Certificate
-              </a>
-            </div>
+            {cert.link && <div className="mt-5">
+              <a href={cert.link} target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 rounded-full border border-white/10 px-4 py-2 text-xs font-semibold text-white">View Certificate</a>
+            </div>}
           </article>
         ))}
-      </div>
-      <div className="mt-8">
-        <button
-          type="button"
-          onClick={() => setShowAll((prev) => !prev)}
-          className="rounded-full border border-white/10 px-6 py-3 text-sm font-semibold text-white transition hover:border-white/30"
-        >
-          {showAll ? "Show Top Certifications" : "View All Certifications"}
-        </button>
       </div>
     </div>
   );
