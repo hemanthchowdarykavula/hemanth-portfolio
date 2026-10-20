@@ -1,4 +1,4 @@
-import { Mail, Linkedin, MapPin, Phone } from "lucide-react";
+import { Mail, Linkedin, Phone } from "lucide-react";
 import { PROFILE } from "../constants";
 
 const phoneDial = PROFILE.phone.replace(/[^+\d]/g, "");
@@ -25,13 +25,6 @@ const contacts = [
     icon: Phone,
     newTab: false,
   },
-  {
-    label: "Address",
-    value: "Pitman, NJ",
-    href: "https://maps.google.com/?q=Pitman,+NJ",
-    icon: MapPin,
-    newTab: true,
-  },
 ];
 
 const Contact = () => {
@@ -42,8 +35,7 @@ const Contact = () => {
           Let's Connect
         </h2>
         <p className="subtext max-w-2xl">
-          Open to Senior Data Engineer and Data Engineering roles across
-          multi-cloud environments.
+          Open to Data Engineer opportunities focused on AWS, ETL/ELT, and data analytics.
         </p>
         <div className="mt-10 grid gap-6 md:grid-cols-2">
           {contacts.map((contact) => {
