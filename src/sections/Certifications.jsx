@@ -9,7 +9,7 @@ const Certifications = () => {
         Certifications
       </h2>
       <p className="max-w-2xl subtext">
-        Credentials listed in my latest resume, covering SQL, AWS, and data analytics.
+        Training and certifications in SQL, AWS cloud foundations, and data analytics.
       </p>
       <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {visibleCerts.map((cert) => (
@@ -33,7 +33,7 @@ const Certifications = () => {
                 </span>
               ))}
             </div>
-            {cert.link && <div className="mt-5">
+            {cert.link && <div className="mt-auto pt-6">
               <a href={cert.link} target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 rounded-full border border-white/10 px-4 py-2 text-xs font-semibold text-white">View Certificate</a>
             </div>}
           </article>
