@@ -70,7 +70,7 @@ export const EDUCATION = [
 export const CERTIFICATIONS = [
   { title: "SQL (Advanced) Skill Certification — HackerRank", date: "May 2025", skills: ["Advanced SQL"], link: null },
   { title: "AWS Academy Cloud Foundations — AWS Academy", date: "Feb 2022", skills: ["AWS Fundamentals"], link: "certificates/aws_cloud_foundations.pdf" },
-  { title: "Google Data Analytics Professional Certificate — Google / Coursera", date: "Nov 2025", skills: ["Data Analytics"], link: null },
+  { title: "Data Analytics Foundations — Google / Coursera", date: "Nov 2025", skills: ["Data Analytics Foundations"], link: "certificates/Coursera_Data_Analytics_Foundations.pdf" },
 ];
 
 export const ABOUT_TEXT = `Hi, I'm Hemanth Chowdary Kavula, a Data Engineer with 1+ years of experience developing and supporting AWS-based ETL/ELT pipelines.
