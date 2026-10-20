@@ -12,7 +12,7 @@ const Hero = () => {
   const canvasRef = useRef(null);
   const [typedText, setTypedText] = useState("");
   const phrase =
-    "Building reliable AWS data pipelines for analytics and reporting.";
+    "Building reliable financial data pipelines for analytics and reporting.";
 
   const gradientClass = useMemo(
     () =>
