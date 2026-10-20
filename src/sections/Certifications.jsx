@@ -1,8 +1,6 @@
-import { useState } from "react";
 import { CERTIFICATIONS } from "../constants";
 
 const Certifications = () => {
-  const [showAll, setShowAll] = useState(false);
   const visibleCerts = CERTIFICATIONS;
 
   return (
@@ -11,8 +9,7 @@ const Certifications = () => {
         Certifications
       </h2>
       <p className="max-w-2xl subtext">
-        Verified credentials showcasing structured learning across analytics,
-        cloud, and machine learning.
+        Credentials listed in my latest resume, covering SQL, AWS, and data analytics.
       </p>
       <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {visibleCerts.map((cert) => (
