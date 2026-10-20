@@ -66,8 +66,7 @@ const About = () => {
           <div className="mt-6 rounded-2xl border border-white/10 bg-white/5 p-5 backdrop-blur-xl shadow-xl shadow-black/20 md:p-6">
             <p className="text-slate-100 font-medium">
               <span className="mr-1 text-slate-400">Focus:</span>
-              Building scalable data platforms, ETL pipelines, and lakehouse
-              architectures that turn complex data into reliable insights.
+              Developing reliable ETL/ELT pipelines and validated financial datasets for analytics and reporting.
             </p>
           </div>
         </motion.div>
