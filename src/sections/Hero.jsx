@@ -86,6 +86,13 @@ const Hero = () => {
           >
             View Experience
           </a>
+          <a
+            href="/resume.pdf"
+            download="Hemanth_Chowdary_Kavula_Resume.pdf"
+            className="inline-flex items-center justify-center rounded-full border border-white/30 bg-white/10 px-6 py-3 text-sm font-semibold text-white transition hover:-translate-y-1 hover:border-white/60 hover:bg-white/20"
+          >
+            Download Resume
+          </a>
         </div>
 
         <div className="mt-2 flex flex-wrap gap-2">
