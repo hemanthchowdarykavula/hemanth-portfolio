@@ -2,7 +2,7 @@ export const PROFILE = {
   name: "Hemanth Chowdary Kavula",
   title: "Data Engineer",
   subtitle: "1+ years developing, maintaining, and optimizing ETL/ELT pipelines",
-  email: "hemanthkavula48@gmail.com",
+  email: "hemanthchowdarykavula10@gmail.com",
   socials: {
     linkedin: "https://www.linkedin.com/in/hemanthchowdarykavula",
     github: "https://github.com/hemanthkavula",
