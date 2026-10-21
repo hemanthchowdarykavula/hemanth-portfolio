@@ -1,21 +1,25 @@
-# Hemanth Kavula Portfolio
+# Hemanth Kavula | Data Engineer Portfolio
 
 ## About Me
-Senior Data Engineer with 5+ years of experience building scalable data pipelines and modern lakehouse data solutions across multi-cloud environments. Strong expertise in Python, SQL, Spark, and distributed data processing with hands-on experience in ETL development, data integration, data governance, analytics engineering, and real-time streaming pipelines.
 
-Known for delivering reliable, high-performance data workflows that support enterprise analytics, reporting, and large-scale data operations.
+Data Engineer with 1+ years of experience developing and maintaining ETL/ELT pipelines using Python, SQL, PySpark, and AWS. Experienced in cloud-based data processing, SQL development, data modeling, and data quality validation.
 
-## Live Site
+## Live Portfolio
+
 https://hemanthkavula.com/
 
-## How to Run
+## Tech Stack
+
+React.js, JavaScript, Vite, Tailwind CSS, GitHub, Netlify
+
+## Getting Started
 
 ```bash
 npm install
 npm run dev
 ```
 
-The app runs at `http://localhost:4173`.
+The development server runs at `http://localhost:4173`.
 
 ## Build and Preview
 
@@ -24,4 +28,8 @@ npm run build
 npm run preview
 ```
 
-Preview runs at `http://localhost:4173`.
+## Connect
+
+- [LinkedIn](https://www.linkedin.com/in/hemanthchowdarykavula/)
+- [GitHub](https://github.com/hemanthchowdarykavula)
+- [Portfolio](https://hemanthkavula.com/)
