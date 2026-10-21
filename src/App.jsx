@@ -8,10 +8,12 @@ import Hero from "./sections/Hero";
 import About from "./sections/About";
 import Skills from "./sections/Skills";
 import Experience from "./sections/Experience";
+import Projects from "./sections/Projects";
 import Education from "./sections/Education";
 import Certifications from "./sections/Certifications";
 import Contact from "./sections/Contact";
 import Footer from "./sections/Footer";
+import { PUBLICATIONS } from "./constants";
 import { useParallax } from "./hooks/useParallax";
 
 const App = () => {
@@ -51,10 +53,25 @@ const App = () => {
         <SectionWrapper id="experience">
           <Experience />
         </SectionWrapper>
+        <SectionWrapper id="projects">
+          <Projects />
+        </SectionWrapper>
         <SectionWrapper id="education">
           <Education />
         </SectionWrapper>
         <SectionWrapper id="certifications"><Certifications /></SectionWrapper>
+        <SectionWrapper id="publications">
+          <div className="section-shell">
+            <h2 className="section-title mb-10 text-white md:mb-12">Publications</h2>
+            {PUBLICATIONS.map((publication) => (
+              <article key={publication.title} className="glass rounded-2xl border border-white/10 p-6 md:p-8">
+                <h3 className="text-lg font-semibold text-white">{publication.title}</h3>
+                <p className="mt-2 text-slate-300">{publication.publisher} ({publication.year})</p>
+                <a href={publication.link} target="_blank" rel="noreferrer" className="mt-4 inline-flex rounded-full bg-indigo-500 px-4 py-2 text-sm font-semibold text-white hover:bg-indigo-400">View Publication</a>
+              </article>
+            ))}
+          </div>
+        </SectionWrapper>
         <SectionWrapper id="contact">
           <Contact />
         </SectionWrapper>
