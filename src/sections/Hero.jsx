@@ -97,7 +97,7 @@ const Hero = () => {
 
         <div className="mt-2 flex flex-wrap gap-2">
           {[
-            "1+ years in data engineering",
+            "2+ years of experience",
             "ETL/ELT & data validation",
             "Batch & near-real-time ingestion",
             "AWS data processing",
