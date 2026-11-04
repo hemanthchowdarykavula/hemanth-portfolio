@@ -1,7 +1,7 @@
 export const PROFILE = {
   name: "Hemanth Chowdary Kavula",
   title: "Data Engineer",
-  subtitle: "1+ years developing, maintaining, and optimizing ETL/ELT pipelines",
+  subtitle: "2+ years developing and maintaining ETL/ELT pipelines",
   email: "hemanthchowdarykavula10@gmail.com",
   socials: {
     linkedin: "https://www.linkedin.com/in/hemanthchowdarykavula",
@@ -24,14 +24,14 @@ export const NAV_LINKS = [
 ];
 
 export const SKILLS = [
-  { title: "Programming Languages", icon: "Code2", items: ["Python", "SQL", "Scala", "Java", "JavaScript"] },
+  { title: "Programming Languages", icon: "Code2", items: ["Python", "SQL", "Scala", "Java"] },
   { title: "Cloud Platforms", icon: "Cloud", items: ["AWS S3", "AWS Glue", "Amazon EMR", "Amazon Redshift", "AWS Lambda", "AWS Kinesis"] },
   { title: "Big Data & Streaming", icon: "ChartPie", items: ["Apache Spark", "PySpark", "Spark SQL", "Apache Kafka", "Delta Lake", "Databricks"] },
   { title: "Databases & Data Warehousing", icon: "Brain", items: ["Snowflake", "PostgreSQL", "MySQL", "SQL Server", "Oracle"] },
   { title: "Data Integration & Orchestration", icon: "Layout", items: ["dbt", "Apache Airflow", "ETL/ELT Pipelines", "Data Ingestion"] },
   { title: "Data Modeling & Quality", icon: "Sparkles", items: ["Dimensional Modeling", "Star Schema", "SCD Type 2", "Great Expectations", "Data Validation", "Data Reconciliation"] },
   { title: "DevOps & Analytics", icon: "Code2", items: ["Git", "Jenkins", "Terraform", "Docker", "Power BI", "Tableau"] },
-  { title: "Machine Learning & Data Analysis", icon: "Brain", items: ["Pandas", "Scikit-learn", "Logistic Regression", "CLV Modeling", "BG/NBD", "Gamma-Gamma"] },
+  { title: "Python Data Libraries", icon: "Brain", items: ["Pandas", "Scikit-learn"] },
 ];
 
 export const EXPERIENCE = [
@@ -44,15 +44,15 @@ export const EXPERIENCE = [
       "Developed and maintained ETL/ELT pipelines using Python, SQL, PySpark, AWS Glue, and Amazon EMR to process financial and trading datasets for downstream analytics and reporting.",
       "Engineered PySpark transformations to cleanse, filter, join, and aggregate raw data stored in Amazon S3, producing structured datasets for analytical workloads.",
       "Supported near-real-time data ingestion using Apache Kafka and AWS Kinesis, enabling trading event data delivery to downstream processing and monitoring systems.",
-      "Developed Snowflake SQL transformations and dbt models to convert source data into analytics-ready tables supporting financial reporting.",
-      "Automated data quality validation using Python, SQL, and Great Expectations to detect duplicate records, missing values, and schema inconsistencies before downstream data loading.",
+      "Developed Snowflake SQL transformations and dbt models to convert financial source data into structured, analytics-ready datasets supporting reporting and downstream analysis.",
+      "Implemented automated validation checks using Python, SQL, and Great Expectations to detect duplicates, missing values, and schema inconsistencies before downstream data loading.",
       "Prepared and validated Delta Lake datasets using PySpark, supporting financial analytics and downstream AI/ML applications, including risk analysis and anomaly detection.",
       "Monitored ETL pipeline executions, investigated processing failures through log analysis and validation checks, and supported code deployments using Git and Jenkins.",
-      "Optimized SQL queries and PySpark transformations through join optimization, predicate filtering, and workflow improvements to enhance pipeline execution efficiency and maintain reliable financial data delivery.",
+      "Optimized SQL queries and PySpark transformations by refining join strategies, applying predicate filtering, and adjusting workflows to improve ETL processing efficiency.",
     ],
   },
   {
-    period: "May 2025 – Aug 2025",
+    period: "May 2025 – Sep 2025",
     role: "Data Engineer Intern",
     company: "Mastercard",
     location: "San Francisco, CA",
@@ -60,8 +60,21 @@ export const EXPERIENCE = [
       "Developed Python and SQL scripts under engineering team guidance to extract, clean, and transform structured datasets for internal analytics and reporting.",
       "Assisted with ETL pipeline development, testing, and data loading, validating source-to-target transformations across relational databases.",
       "Developed SQL queries using JOINs, subqueries, aggregations, and filtering to support data extraction, reporting, and transformation validation.",
-      "Performed data quality checks and SQL-based reconciliation to identify missing values, duplicate records, and source-to-target discrepancies, documenting findings to support data accuracy.",
+      "Performed SQL-based source-to-target reconciliation to identify missing records, duplicates, and data discrepancies, documenting validation findings for the engineering team.",
       "Supported AWS S3 data processing and ETL troubleshooting, collaborating with engineers to investigate data loading issues and document pipeline workflows.",
+    ],
+  },
+  {
+    period: "Apr 2023 – Nov 2023",
+    role: "Junior Developer Intern",
+    company: "Arshil Digital Private Limited",
+    location: "Hyderabad, India",
+    highlights: [
+      "Assisted in developing and maintaining software applications using Python and SQL, supporting application functionality and data processing tasks.",
+      "Developed SQL queries using joins, subqueries, filtering, and aggregations to retrieve, update, and validate relational data.",
+      "Created Python scripts for file processing, data cleaning, and basic validation to support routine development activities.",
+      "Supported application debugging and unit testing by investigating issues, implementing small code changes, and validating fixes under senior developer guidance.",
+      "Collaborated with developers to document changes, maintain source code using Git, and support application development workflows.",
     ],
   },
 ];
@@ -76,11 +89,11 @@ export const CERTIFICATIONS = [
   { title: "Foundations: Data, Data, Everywhere — Google / Coursera", date: "Nov 2025", skills: ["Data Analytics"], link: "certificates/Coursera_Data_Analytics_Foundations.pdf" },
 ];
 
-export const ABOUT_TEXT = `Data Engineer with 1+ years of experience developing, maintaining, and optimizing ETL/ELT pipelines using Python, SQL, PySpark, and AWS. Hands-on experience with Apache Spark, AWS Glue, Amazon EMR, Amazon S3, Snowflake, and dbt for batch processing, data transformation, and cloud-based analytics.
+export const ABOUT_TEXT = `Data Engineer with 2+ years of experience developing and maintaining ETL/ELT pipelines using Python, SQL, PySpark, and AWS. Hands-on experience with AWS Glue, Amazon EMR, Amazon S3, Snowflake, dbt, and Apache Spark for data ingestion, transformation, and analytics-ready datasets.
 
-Skilled in SQL development, dimensional data modeling, automated data quality validation, and pipeline troubleshooting, with exposure to near-real-time data ingestion using Apache Kafka and AWS Kinesis.
+Skilled in dimensional modeling, SQL optimization, automated data quality validation, and production troubleshooting, with exposure to Kafka and Kinesis streaming.
 
-Experienced in preparing reliable financial datasets for reporting, risk analytics, and downstream AI/ML applications.`;
+Experienced in supporting reliable data delivery for financial reporting, risk analytics, and downstream AI/ML applications.`;
 
 export const PROJECTS = [
   {
@@ -108,10 +121,9 @@ export const PROJECTS = [
   {
     title: "Personal Portfolio Website",
     impactLine: "Responsive portfolio for data engineering work.",
-    description: "Created and customized an AI-assisted responsive portfolio website.",
+    description: "Developed and deployed a responsive portfolio website using React, Vite, Tailwind CSS, and Netlify.",
     impact: [
-      "Used React.js, Vite, and Tailwind CSS to showcase data engineering experience, technical projects, and certifications.",
-      "Integrated GitHub project links, a downloadable resume, and Netlify-based deployment.",
+      "Developed and deployed a responsive portfolio website using React, Vite, Tailwind CSS, and Netlify to showcase technical projects, certifications, and professional experience.",
     ],
     tech: ["React.js", "JavaScript", "Vite", "Tailwind CSS", "GitHub", "Netlify"],
     links: { github: "https://github.com/hemanthchowdarykavula/hemanth-portfolio", demo: "https://hemanthkavula.com/" },
