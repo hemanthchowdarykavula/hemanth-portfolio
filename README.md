@@ -2,7 +2,7 @@
 
 ## About Me
 
-Data Engineer with 1+ years of experience developing and maintaining ETL/ELT pipelines using Python, SQL, PySpark, and AWS. Experienced in cloud-based data processing, SQL development, data modeling, and data quality validation.
+Data Engineer with 2+ years of experience developing and maintaining ETL/ELT pipelines using Python, SQL, PySpark, and AWS. Experienced in cloud-based data processing, SQL development, data modeling, and data quality validation.
 
 ## Live Portfolio
 
